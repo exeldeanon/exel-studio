@@ -15,7 +15,7 @@ ctk.set_default_color_theme("dark-blue")
 class ProSaaSStudio(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("Belfort Pro Studio — Ultimate AI Video Unique Engine v3.3")
+        self.title("Exel Studio — Ultimate AI Video Unique Engine v3.3")
         self.geometry("1100x950")
         self.resizable(False, False)
 
@@ -39,7 +39,7 @@ class ProSaaSStudio(ctk.CTk):
         sidebar.grid(row=0, column=0, sticky="nsew")
         sidebar.grid_rowconfigure(6, weight=1)
 
-        logo_label = ctk.CTkLabel(sidebar, text="⚡ Belfort Studio", font=ctk.CTkFont(size=18, weight="bold"), text_color="#a855f7")
+        logo_label = ctk.CTkLabel(sidebar, text="⚡ Exel Studio", font=ctk.CTkFont(size=18, weight="bold"), text_color="#a855f7")
         logo_label.grid(row=0, column=0, padx=20, pady=(25, 20), sticky="w")
 
         ctk.CTkButton(sidebar, text="📁 Основные папки", fg_color="transparent", hover_color="#2b2b3d", anchor="w", command=lambda: self.show_frame("main")).grid(row=1, column=0, padx=10, pady=5, sticky="ew")

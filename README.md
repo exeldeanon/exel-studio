@@ -1,6 +1,6 @@
-# ⚡ Belfort Pro Studio — Ultimate AI Video Unique Engine v3.3
+# ⚡ Exel Studio — Ultimate AI Video Unique Engine v3.3
 
-**Belfort Pro Studio** — мощное десктопное приложение для **массовой уникализации видеоконтента** с графическим интерфейсом. Идеально подходит для контент-мейкеров, SMM-специалистов и арбитражников, которым нужно создавать множество уникальных копий видео для загрузки на платформы (TikTok, Instagram Reels, YouTube Shorts) без получения теневых банов и дублей.
+**Exel Studio** — мощное десктопное приложение для **массовой уникализации видеоконтента** с графическим интерфейсом. Идеально подходит для контент-мейкеров, SMM-специалистов и арбитражников, которым нужно создавать множество уникальных копий видео для загрузки на платформы (TikTok, Instagram Reels, YouTube Shorts) без получения теневых банов и дублей.
 
 Приложение использует **FFmpeg** в качестве движка обработки и применяет десятки параметров рандомизации к каждому выходному файлу, делая каждую копию уникальной на уровне хеша, метаданных, визуальных и аудио-характеристик.
 
@@ -90,8 +90,8 @@ customtkinter>=5.2.0
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/YOUR_USERNAME/belfort-pro-studio.git
-cd belfort-pro-studio
+git clone https://github.com/YOUR_USERNAME/exel-studio.git
+cd exel-studio
 
 # 2. Создайте виртуальное окружение
 python -m venv venv
@@ -266,7 +266,7 @@ A: Откройте `app.py`, найдите `presets_pool` и добавьте 
 ---
 
 <p align="center">
-  <b>⚡ Belfort Pro Studio v3.3</b><br>
+  <b>⚡ Exel Studio v3.3</b><br>
   Made with ❤️ for content creators
 </p>
 
